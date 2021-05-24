@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.squares {
+    border: solid 1px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: large;
+}
+
+#main {
+    position: absolute;
+    left: 30%;
+}
+
+#gameBoardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
+    width: 50%;
+}
